@@ -37,3 +37,4 @@ while inGame == True:
     print(f"B: {game_data.data[numB]['name']},{game_data.data[numB]['description']}, {game_data.data[numB]['country']}")
     guess = input("Which is higher? a/b?")
     print(checker(guess, numA, numB))
+    #comment
